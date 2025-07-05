@@ -50,7 +50,7 @@
 | Frontend      | HTML, CSS, JavaScript, EJS        |
 | Backend       | Node.js, Express.js               |
 | Database      | MongoDB, Mongoose                 |
-| Auth          | (You can mention JWT/OAuth here)  |
+| Auth          | OAuth                             |
 | UI Frameworks | Custom CSS                        |
 
 ---
