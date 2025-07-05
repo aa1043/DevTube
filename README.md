@@ -1,51 +1,59 @@
 <h1 align="center">🎬 DevTube</h1>
 
 <p align="center">
-  <b>A Scalable Full-Stack Video Streaming Platform Inspired by YouTube</b><br/>
-  Upload, stream, comment, subscribe, and manage content just like on YouTube — now with real-time magic and scalable infrastructure.
+  A Scalable Full-Stack Video Streaming Platform Inspired by YouTube  
+  <br>
+  Upload, stream, comment, subscribe, and manage content — just like on YouTube — now with real-time magic and scalable infrastructure.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/languages/top/yourusername/DevTube?color=blue" />
-  <img src="https://img.shields.io/github/license/yourusername/DevTube" />
-  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
+  <img src="https://img.shields.io/github/languages/top/aa1043/DevTube?color=blue" />
+  <img src="https://img.shields.io/github/license/aa1043/DevTube" />
+  <img src="https://img.shields.io/github/issues-pr/aa1043/DevTube?label=PRs" />
+  <img src="https://img.shields.io/badge/status-active-success" />
 </p>
 
 ---
 
-## 🔥 Features
+## 📽️ Demo
 
-- 🔐 **Google OAuth 2.0 + JWT Authentication**
-- 🎥 **Video Uploads via BunnyCDN + TUS**
-- 📡 **Live Real-Time Updates via Socket.io**
-- 💬 **Like/Dislike Videos & Comments**
-- 📺 **Subscribe/Unsubscribe to Channels**
-- 💾 **Secure File Storage using ImageKit & Multer**
-- 🚀 **RESTful API with Express.js**
-- ⚙️ **Webhooks for Video Processing Status**
-- 🧠 **Modular Code Structure with Clean MVC**
+> Coming soon — stay tuned! (Or embed your video link here if you have one)
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Features
 
-| Area | Technologies |
-|------|--------------|
-| **Backend** | Node.js, Express.js, MongoDB, Socket.io |
-| **Authentication** | Google OAuth, JWT, bcrypt.js |
-| **Security** | Helmet.js |
-| **File Uploads** | Multer, ImageKit |
-| **Video Streaming** | BunnyCDN with TUS Protocol |
-| **Real-Time** | Socket.io, Webhooks |
-| **Deployment** | Railway/Render/AWS |
-| **Database** | MongoDB Atlas |
+- 🎥 **Video Upload & Streaming**  
+  Upload videos and stream them directly from the platform.
+
+- 💬 **Comments & Replies**  
+  Engage users with threaded commenting.
+
+- 📺 **Channel System**  
+  Each user can create and manage a personal channel.
+
+- 🧠 **Hashtags & Search**  
+  Discover content using tags and keywords.
+
+- 🧾 **Studio Dashboard**  
+  Customize channel, view analytics, manage content.
+
+- 🧱 **Modular Architecture**  
+  Built with a scalable and clean folder structure.
 
 ---
 
-## 🧩 Architecture Overview
+## 🧩 Tech Stack
 
-```text
-Client Request → Express.js Routes → Controllers → MongoDB (via Mongoose)
-         ↳ Video Uploads → BunnyCDN
-         ↳ Webhooks (status updates)
-         ↳ Socket.io (live likes/comments)
+| Category      | Tech                              |
+|---------------|-----------------------------------|
+| Frontend      | HTML, CSS, JavaScript, EJS        |
+| Backend       | Node.js, Express.js               |
+| Database      | MongoDB, Mongoose                 |
+| Auth          | (You can mention JWT/OAuth here)  |
+| UI Frameworks | Custom CSS                        |
+
+---
+
+## 📂 Folder Structure
+
