@@ -55,5 +55,10 @@
 
 ---
 
-## 📂 Folder Structure
+## 🧩 Architecture Overview
 
+```text
+Client Request → Express.js Routes → Controllers → MongoDB (via Mongoose)
+         ↳ Video Uploads → BunnyCDN
+         ↳ Webhooks (status updates)
+         ↳ Socket.io (live likes/comments)
