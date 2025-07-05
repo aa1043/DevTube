@@ -3,7 +3,7 @@
 <p align="center">
   A Scalable Full-Stack Video Streaming Platform Inspired by YouTube  
   <br>
-  Upload, stream, comment, subscribe, and manage content — just like on YouTube — with real-time magic and scalable infrastructure.
+  Upload, stream, comment, subscribe, and manage content — just like on YouTube — now with real-time magic and scalable infrastructure.
 </p>
 
 <p align="center">
@@ -15,24 +15,25 @@
 
 ---
 
-## 📚 Table of Contents
-
-- [✨ Features](#-features)
-- [🧩 Tech Stack](#-tech-stack)
-- [⚙️ Architecture Overview](#️-architecture-overview)
-- [🚀 Getting Started](#-getting-started)
-- [🙌 Acknowledgements](#-acknowledgements)
-
----
-
 ## ✨ Features
 
-- 🎥 **Video Upload & Streaming** — Upload and watch HD videos.
-- 💬 **Commenting System** — Real-time user interactions.
-- 📺 **Channel Management** — Create & customize your own channel.
-- 🧠 **Smart Tag Search** — Discover videos by hashtags.
-- 📊 **Studio Dashboard** — Monitor views, subscribers, and analytics.
-- 🔒 **OAuth Authentication** — Secured login and user data.
+- 🎥 **Video Upload & Streaming**  
+  Upload videos and stream them directly from the platform.
+
+- 💬 **Comments & Replies**  
+  Engage users with threaded commenting.
+
+- 📺 **Channel System**  
+  Each user can create and manage a personal channel.
+
+- 🧠 **Hashtags & Search**  
+  Discover content using tags and keywords.
+
+- 🧾 **Studio Dashboard**  
+  Customize channel, view analytics, manage content.
+
+- 🧱 **Modular Architecture**  
+  Built with a scalable and clean folder structure.
 
 ---
 
@@ -44,15 +45,14 @@
 | Backend       | Node.js, Express.js               |
 | Database      | MongoDB, Mongoose                 |
 | Auth          | OAuth                             |
-| Realtime      | Socket.io                         |
-| Video CDN     | BunnyCDN                          |
+| UI Frameworks | Custom CSS                        |
 
 ---
 
-## ⚙️ Architecture Overview
+## 🧩 Architecture Overview
 
 ```text
 Client Request → Express.js Routes → Controllers → MongoDB (via Mongoose)
          ↳ Video Uploads → BunnyCDN
-         ↳ Webhooks → Update DB
-         ↳ Socket.io → Live likes/comments
+         ↳ Webhooks (status updates)
+         ↳ Socket.io (live likes/comments)
