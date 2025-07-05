@@ -15,12 +15,6 @@
 
 ---
 
-## 📽️ Demo
-
-> Coming soon — stay tuned! (Or embed your video link here if you have one)
-
----
-
 ## ✨ Features
 
 - 🎥 **Video Upload & Streaming**  
